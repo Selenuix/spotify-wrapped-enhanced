@@ -26,3 +26,5 @@ export interface AnalyticsData {
   topTracks: Map<string, number>;
   listeningHours: number[];
 }
+
+export type TimeFrame = 'week' | 'month' | 'year';
