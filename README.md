@@ -1,7 +1,21 @@
 # Spotify Wrapped Enhanced
 
-Spotify Wrapped Enhanced is my implementation of Wrapped, aiming to be more reliable, consistant and insightful. It uses
+Spotify Wrapped Enhanced is my implementation of Wrapped, aiming to be more reliable, consistent and insightful. It uses
 exported data from your Spotify account.
+
+## Features
+
+- Total Tracks
+- Unique Artists
+- Unique Albums
+- Time Listened
+- Listening Clock
+- Top Artists
+- Top Albums
+- Top Tracks
+- Top Genres (soon)
+- Selectable timeframe (soon)
+- In-Browser saved data (soon)
 
 ## Installation
 
