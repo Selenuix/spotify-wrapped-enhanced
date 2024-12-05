@@ -16,6 +16,7 @@ exported data from your Spotify account.
 - Top Genres (soon)
 - Selectable timeframe (soon)
 - In-Browser saved data (soon)
+- See example data (soon)
 
 ## Installation
 
