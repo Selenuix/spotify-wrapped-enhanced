@@ -6,7 +6,6 @@ import {YearSelector} from './components/YearSelector';
 import {AnalyticsData, SpotifyStreamingHistory} from './types/spotify';
 import {getAvailableYears, processStreamingData} from './utils/dataProcessor';
 import {Instructions} from './components/Instructions.tsx';
-import {SampleDataIndicator} from './components/SampleDataIndicator.tsx';
 import {useAppContext} from "./context/AppContext.tsx";
 import {Loader} from "./components/Loader.tsx";
 
@@ -62,10 +61,7 @@ function App() {
         Yearly Spotify Listening History
       </h1>
 
-      {!analyticsData && (<>
-        <Instructions/>
-        <SampleDataIndicator/>
-      </>)}
+      {!analyticsData && <Instructions/>}
 
       <FileUpload onFilesSelected={handleFilesSelected}/>
 
