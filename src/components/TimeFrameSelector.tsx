@@ -16,7 +16,7 @@ export const TimeFrameSelector: FC<TimeFrameSelectorProps> = ({
       <span className="text-gray-700 font-medium">Time Frame:</span>
     </div>
     <div className="flex space-x-2">
-      {(['week', 'month', 'year'] as TimeFrame[]).map((frame) => (<button
+      {(['week', 'month', 'year'] as TimeFrame[]).map((frame: TimeFrame) => (<button
         key={frame}
         onClick={(): void => onTimeFrameChange(frame)}
         className={`px-4 py-2 rounded-md transition-colors ${timeFrame === frame ? 'bg-blue-500 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
